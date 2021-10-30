@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/SJ-74/single-price-grid-component-master)
 - Live Site URL: [Netlify](https://admiring-galileo-61984a.netlify.app)
 
 ## My process
