@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,500;0,700;1,500&display=swap');
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+body{
+    background : hsl(204, 43%, 93%);
+    font-family : 'Karla', sans-serif;
+    color : #fff;
+    line-height : 1.8;
+}
+
+.container{
+    max-width : 80%;
+    margin : 5em auto;
+}
+
+.padding{
+    padding : 1.875em 1.5em;
+}
+
+.top{
+    background-color : #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title{
+    color :hsl(179, 62%, 43%);
+}
+
+.subtitle{
+    color : hsl(71, 73%, 54%);
+    margin-block : 0.75em;
+}
+
+.top__info{
+    color : hsl(218, 22%, 67%);
+    font-size : .875rem;
+}
+
+.mid{
+    background-color : hsl(179, 62%, 43%);
+}
+
+.text--light{
+    font-weight : 200;
+    font-size : 1rem;
+    vertical-align : 0.25em;
+    opacity : 0.75;
+}
+
+.button{
+    border : none;
+    border-radius : 5px;
+    background-color : hsl(71, 73%, 54%);
+
+    color : #fff;
+    font-weight : 500;
+    font-size : 1rem;
+    letter-spacing: 0.05rem;
+
+    width : 100%;
+    padding-block : 0.75em;
+    margin-top : 1.875em;
+    filter: drop-shadow(1px 10px 10px #0000002c);
+}
+
+.bottom{
+    background-color : hsla(179, 62%, 43%, 0.75);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bottom__title{
+    margin-bottom: 1em;
+}
+
+ul{
+    list-style-type : none;
+    font-size : 0.875rem;
+    line-height : 1.5;
+    opacity: 0.8;
+}
+
+.attribution { font-size: 11px; text-align: center; color :hsl(218, 22%, 67%);}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width : 768px){
+
+    .container{
+        max-width : 635px;
+        margin : 9em auto;
+    }
+
+    .flex{
+        display : flex;
+    }
+
+    h1{
+        font-size : 2.25rem;
+        margin-bottom : -0.25em;
+    }
+
+    .top__info{
+        font-size : 1rem;
+    }
+
+    .padding{
+        padding : 2.5em;
+    }
+
+    .mid{
+        flex : 1;
+        border-bottom-left-radius : 5px;
+    }
+
+    .bottom{
+        border-radius: unset;
+        border-bottom-right-radius : 5px;
+        flex : 1;
+    }
+
+    .button:hover{
+        cursor : pointer;
+        transform : translateY(-0.25em);
+    }   
+}
