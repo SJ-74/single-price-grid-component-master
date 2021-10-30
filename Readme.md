@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Gihub](https://your-solution-url.com)
+- Solution URL: [Github](https://your-solution-url.com)
 - Live Site URL: [Netlify](https://admiring-galileo-61984a.netlify.app)
 
 ## My process
